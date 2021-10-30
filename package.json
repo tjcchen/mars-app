@@ -1,0 +1,43 @@
+{
+  "name": "mars-repo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "mars serve",
+    "build": "mars build",
+    "build:h5": "mars build -t h5",
+    "build:wx": "mars build -t wx",
+    "serve:h5": "mars serve -t h5",
+    "serve:wx": "mars serve -t wx"
+  },
+  "dependencies": {
+    "@marsjs/api": "^1.0.0",
+    "@marsjs/components": "^1.0.0",
+    "vue": "^2.6.6",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "@marsjs/build": "^0.3.0",
+    "@marsjs/cli-template": "^0.3.0",
+    "@marsjs/core": "^0.3.0",
+    "@marsjs/vue-cli-plugin-mars-web": "^0.0.9",
+    "@vue/cli": "^3.3.0",
+    "@vue/cli-plugin-babel": "^3.0.0",
+    "@vue/cli-service": "^3.5.0",
+    "atom-web-compiler": "^2.2.0",
+    "atom2vue-loader": "^1.0.0",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
